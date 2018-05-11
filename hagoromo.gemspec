@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Akira Takahashi']
   spec.email         = ['rike422@gmail.com']
 
-  spec.summary       = 'Hugger is utility wrapper classes'
-  spec.description   = 'Hugger is utility wrapper classes'
+  spec.summary       = 'Collection of utility wrapper class for Ruby'
+  spec.description   = 'Collection of utility wrapper class for Ruby'
   spec.homepage      = 'https://github.com/rike422/hugger'
   spec.license       = 'MIT'
 
