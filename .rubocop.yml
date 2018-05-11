@@ -1,0 +1,25 @@
+AllCops:
+  Exclude:
+      - 'vendor/**/*'
+      - 'test/fixtures/**/*'
+      - 'tmp/**/*'
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 150
+
+Style/CaseEquality:
+  Exclude:
+    - 'test/**/*'
+
+Naming/UncommunicativeMethodParamName:
+  Exclude:
+    - 'test/**/*'
+
