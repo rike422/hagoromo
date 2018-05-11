@@ -3,7 +3,7 @@ require 'hugger/version'
 require 'dry/inflector'
 require 'hugger/object'
 require 'hugger/string'
-require 'hugger/decoratable'
+require 'hugger/huggable'
 
 # Module
 # @since 0.0.1

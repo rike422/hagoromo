@@ -21,7 +21,7 @@ gem 'hugger'
 require 'hugger'
 
 class SampleClass
-  include Hugger::Decoratable
+  include Hugger::Haggable
   
   hug_string :wrap
   def wrap(a)

@@ -1,7 +1,7 @@
 module Hugger
   # String
   # @since 0.0.1
-  module Decoratable
+  module Huggable
     def self.included(klass)
       super
       klass.extend(ClassMethods)
@@ -17,7 +17,7 @@ module Hugger
     end
   end
 
-  # Decoratable class methods
+  # Haggable class methods
   # @since 0.0.1
   module ClassMethods
     # Decorates object from given method using the Hugger classes

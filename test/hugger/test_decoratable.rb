@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class MockString
-  include Hugger::Decoratable
+  include Hugger::Huggable
   hug_string :string_method
 
   def string_method(a, b)
@@ -13,7 +13,7 @@ class MockString
   end
 end
 
-class TestDecoratable < Test::Unit::TestCase
+class TestHaggable < Test::Unit::TestCase
   test '::String class wrapped by Hugger::String' do
     s = MockString.new
     r = s.string_method('a', 'b')
